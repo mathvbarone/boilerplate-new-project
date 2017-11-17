@@ -1,7 +1,7 @@
 {
-  "name": "js-tdd-course",
+  "name": "new-project",
   "version": "1.0.0",
-  "description": "Minha biblioteca do curso JS com TDD na prática",
+  "description": "Meu novo projeto",
   "main": "index.js",
   "scripts": {
       "lint": "./node_modules/.bin/eslint src/*.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mathvbarone/curso-js-tdd.git"
+    "url": "git+https://github.com/mathvbarone/boilerplate-new-project.git"
   },
   "keywords": [
     "js",
@@ -19,9 +19,9 @@
   "author": "Matheus Barone <matheusvbarone@gmail.com> (http://matheusbarone.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mathvbarone/curso-js-tdd/issues"
+    "url": "https://github.com/mathvbarone/boilerplate-new-project/issues"
   },
-  "homepage": "https://github.com/mathvbarone/curso-js-tdd#readme",
+  "homepage": "https://github.com/mathvbarone/boilerplate-new-project#readme",
   "devDependencies": {
     "eslint": "^4.11.0",
     "eslint-config-airbnb-base": "^12.1.0",
