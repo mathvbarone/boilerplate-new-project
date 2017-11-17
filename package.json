@@ -1,0 +1,31 @@
+{
+  "name": "js-tdd-course",
+  "version": "1.0.0",
+  "description": "Minha biblioteca do curso JS com TDD na prática",
+  "main": "index.js",
+  "scripts": {
+      "lint": "./node_modules/.bin/eslint src/*.js",
+      "prepush": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathvbarone/curso-js-tdd.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Matheus Barone <matheusvbarone@gmail.com> (http://matheusbarone.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mathvbarone/curso-js-tdd/issues"
+  },
+  "homepage": "https://github.com/mathvbarone/curso-js-tdd#readme",
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "husky": "^0.14.3"
+  }
+}
